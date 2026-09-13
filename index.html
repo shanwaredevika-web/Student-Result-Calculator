@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Result Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+
+    <div class="container">
+
+    <h1>Student Result Calculator</h1>
+    <label for="studentName">Student Name:</label>
+    <input type="text" id="studentName" placeholder="Enter your name">
+
+    <label for="subject1">Subject 1 Marks:</label>
+    <input type="number" id="subject1" placeholder="Enter marks">
+
+    <label for="subject2">Subject 2 Marks:</label>
+    <input type="number" id="subject2" placeholder="Enter marks">
+
+    <label for="subject3">Subject 3 Marks:</label>
+    <input type="number" id="subject3" placeholder="Enter marks">
+
+    <label for="subject4">Subject 4 Marks:</label>
+    <input type="number" id="subject4" placeholder="Enter marks">
+
+    <label for="subject5">Subject 5 Marks:</label>
+    <input type="number" id="subject5" placeholder="Enter marks">
+     
+    <button onclick="calculateResult()">Calculate Result</button>
+    <button onclick="clearForm()" class="clear-button">Clear</button>
+
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+
+    </div>
+</body>
+</html>
